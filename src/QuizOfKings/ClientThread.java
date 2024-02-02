@@ -1,4 +1,4 @@
-package ProjectAP;
+package QuizOfKings;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
