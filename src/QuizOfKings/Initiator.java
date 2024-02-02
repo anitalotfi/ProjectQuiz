@@ -6,8 +6,6 @@ import java.util.Scanner;
  * The Initiator class represents the entity responsible for starting the quiz.
  * It prompts the user to enter 'START' to initiate the quiz countdown, allowing the quiz to begin.
  *
- * @version 1.0
- * @since 2024-02-01
  * @sethsolves Sara Sharifirad
  * @anitalotfi Anitta Lotfi
  */
