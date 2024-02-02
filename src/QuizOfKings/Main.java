@@ -48,10 +48,10 @@ public class Main extends Host {
             System.out.println("Waiting for participants to connect..");
 
             // Creating ClientThreads and connecting to the server.
-            ProjectAP.ClientThread.initialise(question_setter.ques, Set_time.t);
-            ProjectAP.ClientThread clientThread = new ProjectAP.ClientThread(1000);
-            ProjectAP.ClientThread clientThread1 = new ProjectAP.ClientThread(1001);
-            ProjectAP.ClientThread clientThread2 = new ProjectAP.ClientThread(1002);
+            ClientThread.initialise(question_setter.ques, Set_time.t);
+            ClientThread clientThread = new ClientThread(1000);
+            ClientThread clientThread1 = new ClientThread(1001);
+            ClientThread clientThread2 = new ClientThread(1002);
 
             // Starting the participant threads.
             clientThread.start();

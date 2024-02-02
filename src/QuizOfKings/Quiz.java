@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
  */
 
 class Quiz {
+    reader reader = new reader();
     /**
      * The number of the current question in the quiz session.
      */
@@ -68,7 +69,7 @@ class Quiz {
         // notifies waiting threads.
         if (threadnum == 3)
             synchronized (this) {
-                Answer = ProjectAP.reader.readAns();
+                Answer = reader.readAns();
                 threadnum = 0;
                 notifyAll();
             }
