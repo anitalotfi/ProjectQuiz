@@ -36,9 +36,6 @@ This is a simple quiz application implemented in Java, designed to facilitate qu
 - [Sara Sharifirad](https://github.com/sethsolves)
 - [Anitta Lotfi](https://github.com/anitalotfi)
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
